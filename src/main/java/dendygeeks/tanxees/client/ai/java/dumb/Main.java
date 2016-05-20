@@ -1,11 +1,11 @@
-package bfbc.tank.ai.dumb;
+package dendygeeks.tanxees.client.ai.java.dumb;
 
 import java.util.Random;
 
-import bfbc.tank.ai.runner.AIBase;
-import bfbc.tank.ai.runner.ClientStateControllerBase;
-import bfbc.tank.api.model.PlayerKeysModel;
-import bfbc.tank.api.model.TheStateModel;
+import dendygeeks.tanxees.api.java.model.PlayerKeysModel;
+import dendygeeks.tanxees.api.java.model.TheStateModel;
+import dendygeeks.tanxees.client.ai.java.AIBase;
+import dendygeeks.tanxees.client.ai.java.ClientStateControllerBase;
 
 public class Main extends AIBase {
 	
