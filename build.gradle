@@ -3,12 +3,19 @@ apply plugin: 'application'
 
 version = '0.1'
 
-mainClassName = "bfbc.tank.ai.dumb.Main"
+mainClassName = "dendygeeks.tanxees.client.ai.java.dumb.Main"
 
 jar {
     manifest {
         attributes 'Main-Class': mainClassName
     }
+}
+
+run {
+	if (project.hasProperty("playerId"))
+	{
+		args(playerId);
+	}
 }
 
 repositories {
